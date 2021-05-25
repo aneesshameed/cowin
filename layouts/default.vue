@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="tw-p-6 tw-py-10 tw-bg-blue-700">
+    <div class="tw-p-6 tw-bg-blue-700">
       <vs-row justify="center">
         <vs-col lg="4" sm="10" xs="12">
           <vs-row v-if="$nuxt.$route.name != 'index'">
@@ -21,7 +21,7 @@
             <vs-col vs-type="flex" vs-justify="center" vs-align="center" w="6">
               <nuxt-link to="/">
                 <div class="tw-text-4xl tw-font-bold tw-text-white tw-pt-3">
-                  CoWin
+                  <span>CoWin</span>
                 </div>
               </nuxt-link>
             </vs-col>
