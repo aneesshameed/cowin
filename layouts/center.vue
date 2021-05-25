@@ -38,7 +38,7 @@
         </vs-row>
         <vs-row justify="center">
           <vs-col lg="4" sm="10" xs="12">
-            <vs-button color="white" active> Technology </vs-button>
+            <vs-button color="white" active to="/technology"> Technology </vs-button>
           </vs-col>
         </vs-row>
       </div>

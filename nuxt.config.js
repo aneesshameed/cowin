@@ -59,7 +59,6 @@ export default {
       prefer_related_applications: true,
       description:
         'Find Covid vaccine slots. Track vaccine centers near to you.',
-      start_url: '/index',
       background_color: '#1D4ED8',
     },
     meta: {
