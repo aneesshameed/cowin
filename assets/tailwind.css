@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  font-family: 'Segoe UI Regular' !important;
+}
+
 button:focus {
   outline: none;
 }
