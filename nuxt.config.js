@@ -55,7 +55,6 @@ export default {
     manifest: {
       lang: 'en',
       short_name: 'CoWin',
-      icons: ['/icon.png'],
       display: 'fullscreen',
       prefer_related_applications: true,
       description:
