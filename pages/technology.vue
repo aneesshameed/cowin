@@ -15,7 +15,7 @@
       <vs-col w="6">
         <div class="tw-flex tw-flex-col tw-items-center tw-mb-5">
           <img
-            src="vue.jpg"
+            src="~/static/vue.jpg"
             alt="vue"
             style="padding: 10px"
             width="200px;"
@@ -23,7 +23,7 @@
         </div>
         <div class="tw-flex tw-flex-col tw-items-center tw-mb-5">
           <img
-            src="nuxt.jpg"
+            src="~/static/nuxt.jpg"
             alt="nuxt"
             style="padding: 10px"
             width="200px;"
@@ -31,7 +31,7 @@
         </div>
         <div class="tw-flex tw-flex-col tw-items-center tw-mb-5">
           <img
-            src="vuesax.jpg"
+            src="~/static/vuesax.jpg"
             alt="vuesax"
             style="padding: 10px"
             width="200px;"
@@ -39,7 +39,7 @@
         </div>
         <div class="tw-flex tw-flex-col tw-items-center tw-mb-5">
           <img
-            src="tailwind.jpg"
+            src="~/static/tailwind.jpg"
             alt="tailwind"
             style="padding: 10px"
             width="200px;"
@@ -47,7 +47,7 @@
         </div>
         <div class="tw-flex tw-flex-col tw-items-center tw-mb-5">
           <img
-            src="vercel.jpg"
+            src="~/static/vercel.jpg"
             alt="vercel"
             style="padding: 10px"
             width="200px;"
