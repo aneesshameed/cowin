@@ -14,7 +14,12 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: ['@/assets/tailwind.css', 'vuesax/dist/vuesax.css'],
+  css: ['@/assets/font.css', '@/assets/tailwind.css', 'vuesax/dist/vuesax.css'],
+
+  /*
+   ** Customize the progress-bar color
+   */
+  loading: { color: '#1D4ED8' },
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: ['@/plugins/vuesax', { src: '~/plugins/persistedState.client.js' }],
@@ -49,15 +54,24 @@ export default {
   pwa: {
     manifest: {
       lang: 'en',
+      short_name: 'CoWin',
+      icons: ['/icon.png'],
+      display: 'fullscreen',
+      prefer_related_applications: true,
+      description:
+        'Find Covid vaccine slots. Track vaccine centers near to you.',
+      start_url: '/index',
+      background_color: '#1D4ED8',
     },
     meta: {
       mobileAppIOS: true,
       name: 'CoWin',
       author: 'aneeshameed@elifent.tech',
-      description: 'Find Covid vaccine slots. Track vaccine centers near to you.',
+      description:
+        'Find Covid vaccine slots. Track vaccine centers near to you.',
       theme_color: '#1D4ED8',
-      ogSiteName: 'CoWin.elifent.tech'
-    }
+      ogSiteName: 'CoWin.elifent.tech',
+    },
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
